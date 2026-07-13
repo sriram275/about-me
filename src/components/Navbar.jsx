@@ -11,7 +11,7 @@ export default function Navbar() {
       setScrolled(window.scrollY > 20);
 
       // Section tracking for active state
-      const sections = ['home', 'about', 'journey', 'showcase', 'skills', 'contact'];
+      const sections = ['home', 'about', 'journey', 'skills', 'contact'];
       const scrollPosition = window.scrollY + 200;
 
       for (const section of sections) {
@@ -35,7 +35,6 @@ export default function Navbar() {
     { label: 'Home', target: 'home' },
     { label: 'About', target: 'about' },
     { label: 'Journey', target: 'journey' },
-    { label: 'Showcase', target: 'showcase' },
     { label: 'Skills', target: 'skills' },
     { label: 'Contact', target: 'contact' }
   ];

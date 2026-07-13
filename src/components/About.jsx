@@ -18,7 +18,7 @@ export default function About() {
           <div className="image-border-glow"></div>
           <div className="about-image-wrapper">
             <img 
-              src="/avatar.jpg" 
+              src={`${import.meta.env.BASE_URL}avatar.jpg`} 
               alt="Sriramulu Geddapu profile avatar" 
               className="about-image" 
             />
